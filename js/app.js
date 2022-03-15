@@ -80,7 +80,7 @@ function updateStatusText(isOwner, checking) {
     if(isOwner) {
       statusText.innerText = `Chad confirmed, entry granted ${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Identifying Chad${renderDots(dots)}`;
+      statusText.innerText = `Identifying Chad  ${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
