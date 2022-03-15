@@ -12,7 +12,7 @@
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #00268f;
-  --header-shadow: rgb(0, 0, 0) 0px 0px 5px;
+  --header-shadow: #0b001d;
 }
 
 * {
@@ -169,7 +169,7 @@ section {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 0;
+    margin-left: 5;
     padding: 1rem;
     max-width: 8rem;
   }
