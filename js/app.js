@@ -97,7 +97,7 @@ function renderDots(dots) {
   for (let i = 0; i < dots; i++) {
     dotsString += '.';
   }
-  return dotsString;
+  return dotsString;3
 }
 
 function timer(ms) {
