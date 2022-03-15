@@ -2,7 +2,7 @@
 const TIMEOUT = 5;
 const COLLECTION_NAME = 'Chad';
 let editions = [];
-let dots = 3;
+let dots = 1;
 
 window.addEventListener('DOMContentLoaded', () => {
   const onboarding = new MetaMaskOnboarding();
