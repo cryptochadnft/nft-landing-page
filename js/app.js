@@ -78,9 +78,9 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `Chad confirmed, entry granted ${renderDots(dots)}`;
+      statusText.innerText = `Chad confirmed, entry granted${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Identifying Chad ${renderDots(dots)}`;
+      statusText.innerText = `Identifying Chad${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
@@ -94,7 +94,7 @@ function updateStatusText(isOwner, checking) {
 
 function renderDots(dots) {
   let dotsString = '';
-  for (let i = 0; i < dots; i++) {
+  for (let i = 2; i < dots; i++) {
     dotsString += '...';
   }
   return dotsString;
