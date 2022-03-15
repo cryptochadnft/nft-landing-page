@@ -93,7 +93,7 @@ function updateStatusText(isOwner, checking) {
 }
 
 function renderDots(dots) {
-  let dotsString = '';
+  let dotsString = '...';
   for (let i = 0; i < dots; i++) {
     dotsString += '.';
   }
