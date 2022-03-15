@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'Crypto C';
+const COLLECTION_NAME = 'Crypto Chads';
 let editions = [];
 let dots = 1;
 
@@ -80,7 +80,7 @@ function updateStatusText(isOwner, checking) {
     if(isOwner) {
       statusText.innerText = `Chad confirmed, entry granted ${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Identifying Chad  ${renderDots(dots)}`;
+      statusText.innerText = `Identifying Chad ${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
@@ -95,9 +95,9 @@ function updateStatusText(isOwner, checking) {
 function renderDots(dots) {
   let dotsString = '';
   for (let i = 0; i < dots; i++) {
-    dotsString += '.';
+    dotsString += '...';
   }
-  return dotsString;3
+  return dotsString;
 }
 
 function timer(ms) {
