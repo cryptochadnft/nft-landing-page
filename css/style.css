@@ -1,11 +1,11 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Press', sans-serif;
+  --font-primary: 'Bungee', sans-serif;
   --font-secondary: 'Bungee', serif;
   --font-code: 'Bungee', monospace;
   --bg-color: #0b001d;
